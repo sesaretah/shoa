@@ -231,6 +231,22 @@ fa:
     page_gap: "&hellip;"
     previous_label: "قبلی"
     next_label: "بعدی"
+  sign_out: 'خروج '
+  email: 'ایمیل'
+  male: 'مرد'
+  female: 'زن'
+  sign_in: 'ورود '
+  login_to_your_account: 'ورود به سامانه'
+  i_forgot_password: 'رمز خود را فراموش کرده ام'
+  dont_have_account_yet: 'هنوز ثبت نام نکرده اید؟'
+  sign_up: 'ثبت نام'
+  enter_email: 'ایمیل خود را وارد کنید'
+  already_have_account: 'قبلا ثبت نام کرده اید؟ '
+  sign_up: 'ثبت نام'
+  password: 'رمز عبور'
+  characters_minimum: 'حداقل حروف'
+  sex: 'جنسیت'
+  fullname: 'نام و نام خانوادگی'
   fill_in_the_title: 'عنوان ...'
   fill_in_the_content: 'متن ...'
   submit: 'ثبت'

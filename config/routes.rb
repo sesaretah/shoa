@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-root 'home#index'
-post '/rivers', to: "rivers#create"
+  devise_for :users, :controllers => {:registrations => "registrations"}
+  root 'home#index'
+  post '/rivers', to: "rivers#create"
 end
