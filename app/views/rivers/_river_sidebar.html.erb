@@ -1,0 +1,9 @@
+<div class="list-group list-group-transparent">
+  <%= link_to '/home/settings?section=homepage',id: 'homepage-nav', class: "list-group-item list-group-item-action active small mb-1", style:'font-weight:normal;', remote: true do%>
+  <i class="fe fe-chevron-left" style="vertical-align:-3px;"></i> <%=t :my_river%>
+  <%end%>
+
+  <%= link_to '/home/settings?section=slider', id: 'slider-nav',class: "list-group-item list-group-item-action small mb-1", style:'font-weight:normal;', remote: true do%>
+  <i class="fe fe-chevron-left" style="vertical-align:-3px;"></i> <%=t :other_river%>
+  <%end%>
+</div>

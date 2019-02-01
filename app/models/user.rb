@@ -6,11 +6,12 @@ class User < ActiveRecord::Base
   validates :username, uniqueness: true
 
   has_one :profile
+  has_many :rivers
 
   def email_required?
     false
   end
-  
+
   def email_changed?
     false
   end

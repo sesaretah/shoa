@@ -1,6 +1,5 @@
-class River < ActiveRecord::Base
-  has_many :streams
-  has_many :posts
+class Post < ActiveRecord::Base
+  belongs_to :river
   before_create :set_uuid
 
   def set_uuid
@@ -12,6 +11,6 @@ class River < ActiveRecord::Base
   end
 
   def find(uuid)
-    River.find_by_uuid(uuid)
+    Post.find_by_uuid(uuid)
   end
 end

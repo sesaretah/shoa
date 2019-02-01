@@ -2,6 +2,12 @@
 
 one:
   title: MyString
+  content: MyText
+  uuid: MyString
+  river_id: 1
 
 two:
   title: MyString
+  content: MyText
+  uuid: MyString
+  river_id: 1

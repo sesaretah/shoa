@@ -231,6 +231,10 @@ fa:
     page_gap: "&hellip;"
     previous_label: "قبلی"
     next_label: "بعدی"
+  other_river: 'دیگر جویبارها'
+  my_river: 'جویبارهای من'
+  home: 'خانه'
+  rivers: 'جویبارها'
   sign_out: 'خروج '
   email: 'ایمیل'
   male: 'مرد'
